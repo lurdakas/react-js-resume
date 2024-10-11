@@ -11,7 +11,7 @@ function Navbar() {
             if (window.innerWidth <= 500) { closeMenu }
         };
 
-        window.addEventlistener("resize", handleResize);
+        window.addEventListener("resize", handleResize);
 
         return () => { window.removeEventListener("resize", handleResize) };
     }, []);
@@ -22,9 +22,33 @@ function Navbar() {
     }, []);
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
-            <div>
-                <img src="./img/Resume.jpg" alt="Logoipsum" />
+            <div className="logo_resume">
+             <img src="./img/Resume.jpg" alt="Logoipsum" />
             </div>
+            <a className={`nav__hamburger ${navActive ? "acitve" : ""}`} onClick={toggleNav}>
+                <span className="nav__hamburger__line"></span>
+                <span className="nav__hamburger__line"></span>
+                <span className="nav__hamburger__line"></span>
+            </a>
+            <div className={`navbar--items ${navActive ? "active" : ""}`}>
+                <ul>
+                    <li>
+                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content"> Home </Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content"> Portfolio </Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="AboutMe" className="navbar--content"> About Me </Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Testimonials" className="navbar--content">  Testimonials </Link>
+                    </li>
+                </ul>
+            </div>
+            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Testimonials" className="btn btn-outline-primary">
+            Contact Me
+            </Link >
         </nav>
     );
 }
