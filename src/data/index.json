@@ -19,5 +19,26 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         }
         
+    ],
+    "portfolio":[
+        {
+            "id": "1",
+            "src": "./img/soon3702.jpg",
+            "title": "Resume Site",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
+        },
+        {
+            "id": "2",
+            "src": "./img/temporary-rubber-stamp-vector-17998203.jpg",
+            "title": "Art Site",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/coming-soon-logo_551032-890.avif",
+            "title": "Line Following Robot",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
+        }
+        
     ]
 }
