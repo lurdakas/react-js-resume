@@ -86,8 +86,6 @@ gap: 16px;
   background-color: var(--white);
 }
 
-/* Global CSS Ends */
-
 /* Main Headings */
 
 h1{
@@ -132,7 +130,6 @@ h2{
   line-height: 21px;
 }
 
-/* Section Titles */
 /* Skills & About Me */
 
 .section--title{
@@ -167,10 +164,14 @@ h2{
   left: 0;
   right: 0;
   white-space: nowrap;
+  
 }
 
 .navbar--items {
 margin-right: 10%;
+}
+.btn{
+margin-right: 7%;
 }
 
 .navbar--items > ul{
@@ -201,6 +202,7 @@ display: flex;
 
 .logo_resume > img{
   width: 35%;
+  margin-left: 10%;
 }
 
 
@@ -213,7 +215,10 @@ display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  /* background-color: var(--bg-shade); */
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 7%;
+  background-color: #F5F5F5;
 }
 .hero--section--content-box{
   display: flex;
@@ -240,21 +245,36 @@ display: flex;
 .hero--section--title--color{
   color: var(--primary);
 }
-.hero--section--description{
-  color: var(--darkblue);
+.hero--section-description{
   font-size: 24px;
-  font-weight: 400;
-line-height: 36px;
+  font-weight: 500;
+  line-height: 35px;
 }
+
 .hero--section-img{
   display: flex;
+
 }
 .hero--section-img > img{
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   border-radius: 30%;
-  margin-top: 10%;
+  margin-left: 10%;
 }
+
+.hero--section--description--br{
+font-size: small;
+}
+.hero--section-title--color {
+  font-weight: 500;
+  color: var(--primary);
+}
+.section--title{
+  font-weight: 500;
+  text-align: left;
+}
+
+
 /* Skills Section Style */
 
 .skills--section{
@@ -264,6 +284,8 @@ line-height: 36px;
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 .skills--section--heading{
   color: var(--heading-color);
@@ -290,7 +312,7 @@ line-height: 36px;
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
-  background: var(--bg-shade);
+  background-color: #F5F5F5;
   min-height: 250px;
 }
 
@@ -325,7 +347,7 @@ line-height: 36px;
 }
 .skills--section--description{
   color: var(black);
-  font-size: 25px;
+  font-size: 29px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -337,6 +359,7 @@ line-height: 36px;
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
+  margin-right: 7%;
 }
 .about--section-img > img {
   width: 70%;
@@ -456,9 +479,58 @@ line-height: 36px;
   border: 1.333px solid var(--primary);
   background: var(--white);
 }
-
-
-
+/* Footer */
+.footer--container {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--bg-white);
+  align-items: center;
+  align-self: stretch;
+  color: #7D7162;
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+}
+.footer--link--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.logo-resume img{
+  height: 50%;
+  width: 50%;
+  margin-left: 15%;
+}
+.footer--items > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  text-decoration: none;
+}
+.footer--social--icon{
+  margin-right: 9%;
+}
+.footer--items ul > li > a {
+  text-decoration: none;
+}
+.footer--social--icon > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.footer--items{
+display: flex;
+align-items: center;
+white-space: nowrap;
+margin-right: 20%;
+cursor: pointer;
+}
 
 
 

@@ -38,10 +38,6 @@ export default function ContactMe(){
                 <span className="text-md"> Message </span>
                 <textarea  className="contact--input text-md" id="message" rows="9" placeholder="Type your message..."/>
                 </label>
-                {/* <label htmlFor="checkbox" className="checkbox--label">
-                    <input type="checkbox" required name="checkbox" id="checkbox" />
-                    <span className="text-sm"> I accept the terms</span>
-                </label> */}
                 <div> 
                     <button className="btn btn-primary contact--form--btn">Submit</button>
                 </div>
