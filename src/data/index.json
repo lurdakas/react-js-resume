@@ -2,21 +2,13 @@
     "skills":[
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            "src":"./img/frontend.png"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-        },
-        {
-            "id": "3",
-            "src": "./img/feather-pen-1.png",
-            "title": "Embeded Dev",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            "src": "./img/backend.png",
+            "title": "Back-End"
         }
         
     ],
@@ -25,17 +17,17 @@
             "id": "1",
             "src": "./img/soon3702.jpg",
             "title": "Resume Site",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
+            "description": "JavaScript, HTML, CSS, React", "link": "View in Github"
         },
         {
             "id": "2",
-            "src": "./img/temporary-rubber-stamp-vector-17998203.jpg",
+            "src": "./img/soon3702.jpg",
             "title": "Art Site",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
         },
         {
             "id": "3",
-            "src": "./img/coming-soon-logo_551032-890.avif",
+            "src": "./img/soon3702.jpg",
             "title": "Line Following Robot",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
         }

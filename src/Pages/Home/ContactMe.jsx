@@ -1,7 +1,7 @@
 export default function ContactMe(){
     return(
         <section id="Contact" className="contact--section"> 
-            <div>
+            <div className="contact--me">
                 <p className="sub--title"> Get In Touch</p>
                 <h2>Contact Me</h2>
             </div>
