@@ -15,14 +15,14 @@
     "portfolio":[
         {
             "id": "1",
-            "src": "./img/soon3702.jpg",
+            "src": "./img/lkresume.png",
             "title": "Resume Site",
-            "description": "JavaScript, HTML, CSS, React", "link": "View in Github"
+            "description": "JavaScript, HTML, CSS, React, Node.js", "link": "View in Github"
         },
         {
             "id": "2",
             "src": "./img/soon3702.jpg",
-            "title": "Art Site",
+            "title": "Personal Art Site",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
         },
         {

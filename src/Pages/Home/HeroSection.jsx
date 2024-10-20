@@ -7,24 +7,18 @@ export default function HeroSection() {
                     <p className="section--title"> Hello,
                         <br />I'm Lurda Kasilevičiūtė</p>
                     <h1 className="hero--section-tittle--color">
-                        <span className="hero--section-title--color">Full-Stack
+                        <span className="hero--section-title--color">Full-Stack 
                             <br />
-                            Developer
+                             Developer
                         </span>{" "}
                     </h1>
 
                     <p className="hero--section-description">
-                        As a new developer, I have experience working across both front-end and back-end development.
-
-                        My front-end expertise includes HTML, CSS, JavaScript, and popular libraries/frameworks like React.
-
-                        On the back-end, I have a solid understanding of JAVA, Node.js and databases(MongoDB, MySQL), giving me a well-rounded skill set. I'm eager to apply my skills in a dynamic team environment where I can continue to grow.
-
-                        Currently, I'm actively seeking job opportunities to further improve my knowledge in front-end development.
-
+                        As a new developer, I'm passionate about creating user-friendly web experiences. While I have knowledge in both front-end and back-end development, my main interest lies in front-end work, where I can focus on crafting intuitive and visually appealing interfaces. I'm excited to continue learning and growing within programming and am currently seeking opportunities to deepen my expertise in front-end development.
                     </p>
-
                 </div>
+                <a href="https://www.linkedin.com/in/lurda-kasilevi%C4%8Di%C5%ABt%C4%97/" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-primary">Get In Touch</button></a>
             </div>
             <div className="hero--section-img">
                 <img src="./img/profile_pic.jpg" alt="Profile Pic" />
