@@ -212,13 +212,12 @@ display: flex;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
 }
 .hero--section--content{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21px;
+  gap: 20px;
 }
 .hero--section--content--box > button {
   margin-top: 21px;
@@ -237,9 +236,13 @@ display: flex;
   font-size: 24px;
   font-weight: 500;
   line-height: 35px;
+}
+.hero--section-description-hero{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
   margin-bottom: 10%;
 }
-
 .hero--section-img{
   display: flex;
 }
@@ -346,9 +349,9 @@ font-size: small;
 
 .about--section{
   display: grid;
-  padding: 133px 85px;
+  padding: 130px 85px;
   align-items: center;
-  gap: 114px;
+  gap: 100px;
   grid-template-columns: repeat(2, 1fr);
   margin-right: 7%;
 }

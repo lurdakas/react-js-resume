@@ -1,7 +1,7 @@
 export default function ContactMe(){
     return(
         <section id="Contact" className="contact--section"> 
-            <div className="contact--me">
+            <div className="contact--">
                 <p className="sub--title"> Get In Touch</p>
                 <h2>Contact Me</h2>
             </div>
@@ -20,7 +20,7 @@ export default function ContactMe(){
                 <input type="email" className="contact--input text-md" name="email" id="email" required />
                 </label>
                 <label htmlFor="phone-number" className="contact--label">
-                <span className="text-md"> phone-number </span>
+                <span className="text-md"> Phone-number </span>
                 <input type="number" className="contact--input text-md" name="phone-number" id="phone-number" required />
                 </label>
             </div>
