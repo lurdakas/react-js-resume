@@ -24,12 +24,6 @@
             "src": "./img/soon3702.jpg",
             "title": "Personal Art Site",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
-        },
-        {
-            "id": "3",
-            "src": "./img/soon3702.jpg",
-            "title": "Line Following Robot",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
         }
         
     ]
