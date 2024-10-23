@@ -11,7 +11,7 @@ const handleSubmit = async (event) => {
     };
   
     try {
-      const response = await fetch('https://lk-resume.netlify.app/.netlify/functions/send-email', {
+      const response = await fetch('.netlify/functions/send-email', {
         method: 'POST',  // Make sure you're using POST method
         headers: {
           'Content-Type': 'application/json',
@@ -30,4 +30,4 @@ const handleSubmit = async (event) => {
       console.error('Error submitting the form:', error);
       alert('Error submitting the form. Please try again later.');
     }
-  };  
+  };
