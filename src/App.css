@@ -389,16 +389,19 @@ font-size: small;
 }
 .portfolio--section--container{
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   gap: 200px;
   width: 80%;
   margin-left: 8%;
+  align-items: stretch;
 }
 .portfolio--section--img{
   border-radius: 8px;
   width: 100%;
   object-fit: cover;
+  flex: 1;
+
 }
 .portfolio--section--img > img{
   width: 100%;

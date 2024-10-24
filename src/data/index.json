@@ -21,9 +21,9 @@
         },
         {
             "id": "2",
-            "src": "./img/soon3702.jpg",
+            "src": "./img/soon.jpg",
             "title": "Personal Art Site",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "link": "View in Github"
+            "description": "Currently working on a new project - a personal website for my artwork.", "link": "Soon - view in Github"
         }
     ]
 }

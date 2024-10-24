@@ -1,4 +1,4 @@
 [build]
-  functions = "functions" # path to your functions folder
-  publish = "build" # path to your frontend build
+  functions = "functions" 
+  publish = "build" 
 
