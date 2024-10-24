@@ -1,4 +1,6 @@
 const nodemailer = require('nodemailer');
+require('dotenv').config();
+
 
 // Netlify function handler
 exports.handler = async function(event, context) {
@@ -7,12 +9,12 @@ exports.handler = async function(event, context) {
 
   // Create a Nodemailer transporter
   let transporter = nodemailer.createTransport({
-    service: 'Gmail', // You can also use other email services like SMTP, SendGrid, etc.
+    service: 'Gmail',  // Use Gmail's service
     auth: {
-      user: process.env.EMAIL_USER, // Email username from environment variables
-      pass: process.env.EMAIL_PASS  // Email password from environment variables
+      user: process.env.EMAIL_USER,  // Your email address (from .env or Netlify)
+      pass: process.env.EMAIL_PASS   // Your email password (from .env or Netlify)
     }
-  });
+  });  
 
   // Email options
   let mailOptions = {
@@ -38,7 +40,8 @@ exports.handler = async function(event, context) {
     console.error('Error sending email:', error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: 'Failed to send email' })
+      body: JSON.stringify({ error: `Failed to send email: ${error.message}` })
     };
   }
+  
 };
