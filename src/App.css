@@ -573,8 +573,15 @@ margin-bottom: 10%;
     display: flex;
     font-size: 20px;
   }
+  .section--heading{
+    margin-bottom: 20px;
+  }
   .button{
    margin-left: 100px;
+   margin-bottom: 30px;
+  }
+ .navbar {
+  padding: 0; 
   }
   .hero--section-title--color{
     font-size: 45px;
