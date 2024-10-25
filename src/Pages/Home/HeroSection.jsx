@@ -14,7 +14,7 @@ export default function HeroSection() {
                     </h1>
 
                     <p className="hero--section-description-hero">
-                        As a new developer, I'm passionate about creating user-friendly web experiences. While I have knowledge in both front-end and back-end development, my main interest lies in front-end development. I'm excited to continue learning and growing within programming and am currently seeking opportunities to deepen my expertise in front-end development.
+                        As a new developer, I'm passionate about creating user-friendly web experiences. While I have knowledge in both front-end and back-end development, my main interest lies in front-end development because it allows me to tap into my artistic side and create visually engaging, user-centered experiences. I'm excited to continue learning and growing within programming and I am currently seeking opportunities to deepen my expertise in front-end development.
                     </p>
                 </div>
                 <a href="https://www.linkedin.com/in/lurda-kasilevi%C4%8Di%C5%ABt%C4%97/" target="_blank" rel="noopener noreferrer">
