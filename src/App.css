@@ -828,9 +828,7 @@ h2 {
   }
 
   .logo-resume {
-    align-items: center;
-    display: flex;
-    height: 10px;
+    height: 0px;
   }
 
   .divider {
