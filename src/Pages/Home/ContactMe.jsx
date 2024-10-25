@@ -95,7 +95,7 @@ export default function ContactMe() {
                     <label htmlFor="phone-number" className="contact--label">
                         <span className="text-md"> Phone Number</span>
                         <input
-                            type="text"
+                            type="number"
                             className="contact--input text-md"
                             name="phoneNumber"
                             id="phone-number"
