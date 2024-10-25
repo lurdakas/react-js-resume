@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
         from: data.email,
         to: process.env.EMAIL_USER, 
         subject: `Contact Form Submission from ${data.firstName} ${data.lastName}`,
-        text: `You have received a new message:\n\nName: ${data.firstName} ${data.lastName}\nEmail: ${data.email}\nPhone: ${data.phone}\nTopic: ${data.topic}\nMessage:\n${data.message}`,
+        text: `You have received a new message:\n\nName: ${data.firstName} ${data.lastName}\nEmail: ${data.email}\nPhone: ${data.phoneNumber}\nTopic: ${data.topic}\nMessage:\n${data.message}`,
     };
 
     try {
