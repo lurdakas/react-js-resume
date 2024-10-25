@@ -406,7 +406,7 @@ font-size: small;
 }
 .portfolio--section--title{
   color: var(--heading-color);
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .portfolio--link{
   text-decoration: none;
@@ -717,9 +717,7 @@ margin-bottom: 10%;
   .divider {
    margin: 20px;
   }
-  .btn{
-   margin-left: 20px;  
-  }
+  
   .logo-resume{
     justify-content: left;
     display: flex;

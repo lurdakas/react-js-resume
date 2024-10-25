@@ -15,7 +15,7 @@ export default function MyPortfolio() {
                             alt="GitHub"
                             style={{ width: '30px', marginRight: '9px' }}
                         />
-                        Visit My GitHub
+                        View in GitHub
                     </button>
                 </a>
             </div>
