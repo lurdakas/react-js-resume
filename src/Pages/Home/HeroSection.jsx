@@ -18,7 +18,7 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <a href="https://www.linkedin.com/in/lurda-kasilevi%C4%8Di%C5%ABt%C4%97/" target="_blank" rel="noopener noreferrer">
-                <button className="btn btn-primary">Get In Touch</button></a>
+                <button className="button btn btn-primary">Get In Touch</button></a>
             </div>
             <div className="hero--section-img">
                 <img src="./img/profile_pic.jpg" alt="Profile Pic" />

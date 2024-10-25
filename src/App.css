@@ -1,7 +1,5 @@
 /* Global CSS */
-
-body{
-
+body {
   margin: 0;
   font-family: "Roboto, sans-serif";
   -webkit-font-smoothing: "Roboto", sans-serif;
@@ -81,9 +79,7 @@ gap: 16px;
   color: var(--primary);
   background-color: var(--white);
 }
-
 /* Main Headings */
-
 h1{
   font-size: 56px;
   font-weight: 700;
@@ -99,9 +95,7 @@ h2{
   font-weight: 700;
   line-height: 34px;
 }
-
 /* Body */
-
 .text-lg {
   color: var(--darkblue);
   font-style: normal;
@@ -123,9 +117,7 @@ h2{
   font-weight: 400;
   line-height: 21px;
 }
-
 /* Skills & About Me */
-
 .section--title{
   color: var(--heading-color);
   font-size: 25px;
@@ -137,7 +129,6 @@ h2{
   display: flex;
   align-items: flex-start;
 }
-
 /* Portfolio, Testimonial & Contact Me */
 .sub--title{
   color: var(--heading-color);
@@ -145,7 +136,6 @@ h2{
   font-weight: 600;
   line-height: 24px;
 }
-
 /* Navbar Style */
 .navbar{
   display: flex;
@@ -177,9 +167,7 @@ margin-right: 7%;
 .navbar--items ul > li > a {
   text-decoration: none;
 }
-
 /* Navbar Content */
-
 .navbar--content{
   font-size: 16px;
   font-style: normal;
@@ -194,7 +182,6 @@ display: flex;
   width: 35%;
   margin-left: 10%;
 }
-
 /* Hero Section Style */
 .hero--section{
   display: grid;
@@ -263,9 +250,7 @@ font-size: small;
   font-weight: 500;
   text-align: left;
 }
-
 /* Skills Section Style */
-
 .skills--section{
   display: flex;
   padding: 150px 85px;
@@ -291,7 +276,6 @@ font-size: small;
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
   column-gap: 20px;
-
 }
 .skills--section--card{
   display: flex;
@@ -344,9 +328,7 @@ font-size: small;
   font-weight: 400;
   line-height: 30px;
 }
-
 /* About Me */
-
 .about--section{
   display: grid;
   padding: 130px 85px;
@@ -361,9 +343,7 @@ font-size: small;
   border-radius: 20%;
   margin-left: 15%;
 }
-
 /* My Portfolio */
-
 .portfolio--section{
   display: flex;
   padding: 100px 85px;
@@ -379,7 +359,6 @@ font-size: small;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-
 }
 .portfolio--container{
   display: flex;
@@ -401,7 +380,6 @@ font-size: small;
   width: 100%;
   object-fit: cover;
   flex: 1;
-
 }
 .portfolio--section--img > img{
   width: 100%;
@@ -442,7 +420,6 @@ font-size: small;
   stroke: #006b6a;
 }
 /* Contact Me */
-
 .contact--section{
   display: flex;
   padding: 100px;
@@ -492,7 +469,6 @@ font-size: small;
 margin-bottom: 10%;
 }
 /* Footer */
-
 .footer--container {
   display: flex;
   padding: 30px;
@@ -545,7 +521,6 @@ margin-bottom: 10%;
   cursor: pointer;
   color: var(--primary);
 }
-
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
@@ -557,7 +532,6 @@ margin-bottom: 10%;
     line-height: 40px;
   }
 }
-
 @media only screen and (max-width: 1600px) {
   .skills--section--heading {
     font-size: 54px;
@@ -581,7 +555,6 @@ margin-bottom: 10%;
     line-height: 27px;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .btn-outline-primary {
     display: none;
@@ -590,30 +563,90 @@ margin-bottom: 10%;
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
+    padding: 0;
+  }
+  .hero--section-img {
+    width: 100%;  
+    margin-top: 90px;
+  }
+  .section--title{
+    display: flex;
+    font-size: 20px;
+  }
+  .button{
+   margin-left: 100px;
+  }
+  .hero--section-title--color{
+    font-size: 45px;
+  }
+  .hero--section-description-hero{
+    align-items: left;
+    font-size: 20px;
+    line-height: 20px;  
+    padding: 20px;
   }
   .hero--section--title,
   .hero--section-description,
   .footer--content {
     text-align: center;
   }
-  .skills--section--container,
-  .about--section,
+  .skills--section{
+    padding: 0px;
+  }
+  .skills--section--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 500px;
+  }  
+  .skills--section--img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .about--section-img {
+    width: 100%;
+    height: auto;
+  }
+  .skills-section--heading{
+    font-size: 50px;
+  }
+  .hero--section-description{
+    text-align: left;
+    line-height: 27px;  
+    margin-left: 20px;
+  }
+  .about--section {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio--section{
+    padding: 0px;
+  }
+  .sub--title{
+    margin-top: 50px;
+  }
+.portfolio--container,
+.section--heading{
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;  
+}
   .portfolio--section--container,
   .portfolio--container-box,
   .footer--link--container,
-  .footer--items > ul,
   .footer--content--container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    gap: 20px;
   }
   .skills--section,
   .portfolio--container,
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
-  }
-  .portfolio--container-box {
-    gap: 30px;
   }
   .skills--section,
   .testimonial--section,
@@ -650,15 +683,36 @@ margin-bottom: 10%;
   }
   .footer--social--icon > ul,
   .footer--items > ul {
-    padding: 0;
+    padding: 10px;
     align-items: center;
+  }
+  .footer--container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer--items{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
   }
   .divider {
     margin: 20px;
   }
+  .contact--section{
+    padding: 0px;
+    margin-left: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Hamburger menu  */
-
 .nav__hamburger {
   display: none;
   width: 1.875rem;
@@ -666,7 +720,7 @@ margin-bottom: 10%;
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top: 25px;
+  top: 15px;
   right: 25px;
 }
 .nav__hamburger__line {
@@ -718,11 +772,9 @@ margin-bottom: 10%;
   .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
   }
-
   .nav__hamburger.active :nth-child(2) {
     opacity: 0;
   }
-
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }

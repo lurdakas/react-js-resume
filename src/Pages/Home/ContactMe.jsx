@@ -117,7 +117,6 @@ export default function ContactMe() {
                         <option value="">Select One...</option>
                         <option value="Front-End">Front-End</option>
                         <option value="Back-End">Back-End</option>
-                        <option value="Embedded">Embedded</option>
                     </select>
                 </label>
                 <label htmlFor="message" className="contact--label">
